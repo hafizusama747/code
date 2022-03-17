@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    height: 90%;  
+    width: 100%;
+  }
+  
+  body {
+    min-height: 100%;  
+    background: #eee;
+    font-family:  serifs,'Lato';
+    font-weight: 400;
+    color: #222;
+    font-size: 14px;
+    line-height: 27px;
+    padding-bottom: 52px;
+  }
+  
+
+  
+  .header {
+    margin-bottom: 32px;
+  }
+    .complete-name {
+      font-size: 41px;
+      margin-bottom: 6px;
+      font-family: serif,sans-serif;
+    }
+    .container {
+        border-radius: 3px;  
+        padding: 40px;
+        margin-top: 50px;
+        max-width: 700px;   
+        background: #fff;
+        margin: 0px auto 0px; 
+        box-shadow: 1px 1px 2px #DAD7D7;   
+      }
+    
+    .right-name {
+      font-weight: 700;
+    }
+    
+    .left-name {
+      font-weight: 300;
+    }
+    
+    .phone-info {
+      margin-bottom: 20px;
+    }
+    
+    .email-label ,
+    .contact-label {
+      color: #999;
+      font-weight: 300;
+    } 
+    
+    .nextLine {
+      height: 10px;
+      display: inline-block;
+      border-left: 2px solid #999;
+      margin: 0px 10px;
+    }
+    
+    .position {
+      font-weight: bold;
+      display: inline-block;
+      text-decoration: underline;
+      margin-right: 11px;
+      
+    }
+  
+  
+  
+  .details {
+    line-height: 21px;
+  }
+    
+    .headings {
+      margin-bottom: 41px;  
+    }
+    .desc{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+ 
+    
+    .heading-title {
+      letter-spacing: 2px;
+      color: rebeccapurple;
+      font-weight: bold;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+    
+    .heading-title-item {
+      margin-bottom: 40px;
+    }
+    
+    .section__list-item:last-of-type {
+      margin-bottom: 0;
+    }
+    
+    .left ,
+    .right {
+      vertical-align: top;
+      display: inline-block;
+    }
+    
+    .left {
+      width: 60%;    
+    }
+    
+    .right {
+      text-align: right;
+      width: 39%;    
+    }
+    
+    .name {
+      font-weight: bold;
+    }
+    
+    a {
+      text-decoration: none;
+      color: #000;
+      font-style: italic;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+      color: #000;
+    }
+    
+   
+      
+    .skill-set-box {
+      margin-bottom: 10px;  
+   
+    }
+    
+    .skill-set-box .right 
+      input {
+          
+        display: none;
+      }
+      
+      label {
+        display: inline-block;  
+        width: 20px;
+        height: 20px;
+        background: #C3DEF3;
+        border-radius: 20px;
+        margin-right: 3px;
+      }
+      
+      input:checked + label {
+        background: #79A9CE;
+      }
+    
